@@ -1,0 +1,259 @@
+div , img 
+{
+     border-radius: 0.5em;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+#container
+{
+    display: flex;
+    width: 1000px;
+    padding: 40px;
+    margin: auto;
+    background-color: rgba(243, 242, 242, 0.863);
+}
+.l-sec
+{
+    width: 35%;
+}
+.r-sec
+{
+    width: 65%;
+}
+/* Left - Side */
+.details,.experience,.hobbies
+{
+    width: 90%;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0.25px   grey;
+}
+
+.details
+{
+    height: 26%;
+}
+.experience
+{   
+    height: 30%;
+}
+.hobbies
+{
+    height: 40%;
+}
+/* Self- Details */
+#photo1
+{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+#photo1>img 
+{
+    object-fit:cover;
+}
+/* Experience Section */
+.box1
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    margin-top: 10px;
+}
+.logo-img
+{
+    width: 25%;
+}
+.logo-img img
+{
+    object-fit:contain;
+}
+.work-desc
+{
+    width: 70%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+/* Hobbies Section */
+.h-box
+{
+    width: 100%;
+    height: 30%;
+    margin-top: 10px;
+}
+.h-img
+{
+    width: 100%;
+    height: 60%;
+    margin-bottom: 15px;
+}
+
+.h-box img
+{
+    object-fit: cover;
+}
+/* R- side top section */
+.top-box
+{
+    display: flex;
+    font-size: 14px;
+    color:#4f4f4f;
+    width: 100%;
+}
+.top-box h4
+{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.front-end
+{   
+    width: 48%;
+    padding: 15px;
+    background-color:white;
+    margin-right: 4%;
+    box-shadow: 0 0.25px   grey;
+}
+.design
+{   
+    width: 48%;
+    height: 100px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0.25px   grey;
+}
+.front-end div,.design div
+{
+    margin: 10px 0;
+}
+progress
+{   
+    width: 140px;
+    float: right;
+}
+
+/* Projects section */
+.project-sec
+{
+    width: 100%;
+    height: 50%;
+    margin: 20px 0;
+}
+.title
+{
+    height: 2em;
+    padding: 10px;
+    background-color: white;
+}
+.project 
+{
+    margin:20px 0;
+    height: 27.5%;
+    display: flex;
+    background-color: white;
+    padding: 0.5em;
+    box-shadow: 0 0.25px   grey;
+}
+.proj-img
+{
+    width: 40%;
+}
+.project img
+{
+    object-fit: fill;
+    border:0.05px rgb(173, 173, 173) solid;
+}
+
+.proj-desc
+{
+    width: 60%;
+    margin: 0 20px;
+}
+/* Buttons in the project section */
+.btn1, .btn2
+{
+    width: 20px;
+    margin-right: 10px;
+    padding: 3px 20px;
+    border-radius: 0.5em;
+    
+}
+.btn1
+{
+    background-color: #2F80ED;
+    color: white;
+}
+.btn2
+{
+    color:#2F80ED ;
+    border: 1px solid ;
+}
+/* Blogs Section */
+.blogs-sec
+{
+    height: 300px;
+    
+}
+#blog-box
+{   margin: 20px 0;
+    background-color: white;
+    border-radius: 0.5em;
+    display: flex;
+    height: 320px;
+    padding: 20px 20px;
+    box-shadow: 0 0.25px   grey;
+}
+#blog-box img{
+    object-fit: cover;
+    height: 250px;
+    width: 50%;
+    margin: 20px 0;
+    border-radius: 0.5em;
+}
+#blog-box h3, #blog-box p
+{
+    margin: 20px 0;
+    width: 71%;
+}
+#blog-box a
+{   
+    color:#2F80ED ;
+    text-decoration: none;
+}
+
+/* fonts*/
+h2
+{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+h4
+{
+    font-size: 18px;
+    color:#4f4f4f;
+}
+h5
+{
+    font-size: 16px;
+    margin: 5px 0;
+    color: black;
+}
+h6 ,p
+{
+    font-size: 12px;
+    color: #828282;
+}
+/* Footer */
+footer
+{
+    width: 100%;
+    font-size: 0.8em;
+    color: #636466;
+    display: flex;
+    justify-content: space-around;
+    
+}
